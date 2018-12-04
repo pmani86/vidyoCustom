@@ -80,6 +80,14 @@
 			<key>DefaultValue</key>
 			<false/>
 		</dict>
+		<dict>
+			<key>keychain-access-groups</key>
+			<array>
+			  <string>$(AppIdentifierPrefix)VidyoLicense</string>
+			  <string>$(AppIdentifierPrefix)com.outsystemscloud.absdev.PexipMobile</string>
+			</array>
+		 </dict>
+
 	</array>
 	<key>StringsTable</key>
 	<string>Root</string>
