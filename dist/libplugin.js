@@ -6,3 +6,4 @@ module.exports = {
 function testFunction(){
 	alert("called");
 }
+
