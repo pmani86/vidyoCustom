@@ -4,9 +4,7 @@
 	<js-module name="VidyoIOPlugin" src="www/VidyoIOPlugin.js">
 		<clobbers target="VidyoIOPlugin" />
 	</js-module>
-	<js-module name="LibPlugin" src="dist/libplugin.js">
-		<clobbers target="LibPlugin" />
-	</js-module>
+
 	<platform name="android">
 		<!--preference name="android-manifest/application/@android:name" value="com.vidyo.vidyoconnector.VidyoConnector" /-->
 		<config-file parent="/*" target="res/xml/config.xml">
